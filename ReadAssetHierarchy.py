@@ -2,7 +2,7 @@ from cognite.client import CogniteClient
 from treelib import Node, Tree
 tree = Tree()
 
-c = CogniteClient(api_key="ZjE4M2M1ZDAtMjhhNC00MDk5LThmYmUtZmEyZjM5YjAwMDVi", client_name="cedar", project="publicdata") 
+c = CogniteClient(api_key="<APIKey>", client_name="cedar", project="publicdata") 
 res2 = c.assets.retrieve_subtree(id=4650652196144007, depth=50)
 tree.create_node("Valhall Platform", 4650652196144007)
 

@@ -17,7 +17,7 @@ myvar2.set_writable()
 server.start()
 
 from cognite.client import CogniteClient
-c = CogniteClient(api_key="ZjE4M2M1ZDAtMjhhNC00MDk5LThmYmUtZmEyZjM5YjAwMDVi", client_name="cedar", project="publicdata")
+c = CogniteClient(api_key="<APIKey>", client_name="cedar", project="publicdata")
 status = c.login.status()
 print(status)
 
